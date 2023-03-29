@@ -5,7 +5,7 @@ import trollFace from '../images/troll-face.png'
 export default function Header() {
     return (
         <div className="App">
-        <div>
+        <div className="asd">
         <a href="https://reactjs.org" target="_blank">
             <img src={trollFace} className="logo react" alt="React logo" />
           </a>
@@ -13,12 +13,7 @@ export default function Header() {
             <img src={reactLogo} className="logo react" alt="React logo" />
           </a>
         </div>
-        <h1>React Meme Generator</h1>
-        <div className="card">
-
-
-        </div>
-  
+        <h2>React Meme Generator</h2>
       </div>
     )
 }
